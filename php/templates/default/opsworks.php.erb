@@ -22,6 +22,15 @@ class OpsWorksMemcached {
   }
 }
 
+class OpsWorksRedis {
+  public $host, $port;
+
+  public function __construct() {
+    $this->host = '<%= @redis[:host] %>';
+    $this->port = '<%= @memcached[:port] %>';
+  }
+}
+
 class OpsWorks {
   public $db;
   public $memcached;
