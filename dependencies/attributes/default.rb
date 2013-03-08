@@ -4,8 +4,8 @@ default[:dependencies][:npms] = {}
 # this is not implemented on the application side.
 default[:dependencies][:rpms] = {}
 
-default[:dependencies][:update_debs] = false
-default[:dependencies][:upgrade_debs] = false
+default[:dependencies][:update_debs] = true
+default[:dependencies][:upgrade_debs] = true
 # this is not implemented on the application side.
 default[:dependencies][:upgrade_rpms] = false
 
