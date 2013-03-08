@@ -1,0 +1,12 @@
+[submodule "imagemagick"]
+	path = imagemagick
+	url = git://github.com/opscode-cookbooks/imagemagick.git
+[submodule "god"]
+	path = god
+	url = git://github.com/opscode-cookbooks/god.git
+[submodule "git"]
+	path = git
+	url = git://github.com/opscode-cookbooks/git.git
+[submodule "logrotate"]
+	path = logrotate
+	url = git://github.com/opscode-cookbooks/logrotate.git
